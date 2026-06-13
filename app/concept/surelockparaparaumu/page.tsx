@@ -862,6 +862,86 @@
   </div>
 </div>
 
+<!-- ═══════════════════ DEMO SECTION ═══════════════════ -->
+<div id="demo" class="section">
+  <div style="background: var(--navy); padding: 52px 40px 36px; text-align: center;">
+    <span class="section-eyebrow" style="color: var(--teal);">Live Preview</span>
+    <h2 style="font-family: 'DM Serif Display', serif; color: white; font-size: clamp(28px, 4vw, 44px); margin-bottom: 12px;">
+      Your new website — right here
+    </h2>
+    <p style="color: rgba(255,255,255,0.6); font-size: 16px; margin-bottom: 28px; max-width: 520px; margin-left: auto; margin-right: auto;">
+      This is the actual site we've built for Sure-Lock. Click around, scroll through it — this is exactly what your customers will see.
+    </p>
+    <a href="https://www.techlani.com/concepts/surelockparaparaumu" target="_blank" class="btn-primary" style="font-size: 14px; padding: 11px 22px; text-decoration: none;">
+      ↗ Open in new tab
+    </a>
+  </div>
+
+  <!-- Browser chrome wrapper -->
+  <div style="background: #1a3244; padding: 0 0 0 0;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 20px 32px 0;">
+      <!-- Fake browser bar -->
+      <div style="background: #0d1f2d; border-radius: 10px 10px 0 0; padding: 10px 16px; display: flex; align-items: center; gap: 12px;">
+        <div style="display: flex; gap: 6px;">
+          <div style="width: 12px; height: 12px; border-radius: 50%; background: #ff5f57;"></div>
+          <div style="width: 12px; height: 12px; border-radius: 50%; background: #ffbd2e;"></div>
+          <div style="width: 12px; height: 12px; border-radius: 50%; background: #28c840;"></div>
+        </div>
+        <div style="flex: 1; background: rgba(255,255,255,0.08); border-radius: 6px; padding: 6px 14px; font-size: 12px; color: rgba(255,255,255,0.5); display: flex; align-items: center; gap: 8px;">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="opacity:0.5"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+          techlani.com/concepts/surelockparaparaumu
+        </div>
+        <a href="https://www.techlani.com/concepts/surelockparaparaumu" target="_blank" style="color: var(--teal); font-size: 12px; text-decoration: none; white-space: nowrap; font-weight: 500;">Open ↗</a>
+      </div>
+
+      <!-- iframe -->
+      <div style="position: relative; background: white; border-radius: 0 0 0 0; overflow: hidden; height: 680px;">
+        <iframe
+          id="demo-iframe"
+          src="https://www.techlani.com/concepts/surelockparaparaumu"
+          style="width: 100%; height: 100%; border: none; display: block;"
+          title="Sure-Lock Self Storage — New Website Demo"
+          loading="lazy"
+        ></iframe>
+        <!-- Fallback shown if iframe fails to load -->
+        <div id="iframe-fallback" style="display: none; position: absolute; inset: 0; background: var(--cream); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; text-align: center; padding: 40px;">
+          <div style="font-size: 48px;">🔒</div>
+          <div style="font-size: 18px; font-weight: 600; color: var(--navy);">Preview blocked by browser</div>
+          <div style="font-size: 15px; color: var(--muted); max-width: 400px;">Some websites prevent embedding. Open the demo directly in a new tab to see the full site.</div>
+          <a href="https://www.techlani.com/concepts/surelockparaparaumu" target="_blank" class="btn-primary" style="text-decoration: none; font-size: 15px; padding: 13px 28px;">
+            Open Demo Site →
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile preview note + next CTA -->
+  <div style="background: #1a3244; padding: 24px 40px 52px;">
+    <div style="max-width: 1200px; margin: 0 auto; padding: 0 32px;">
+      <div style="display: flex; gap: 16px; align-items: center; flex-wrap: wrap; justify-content: space-between;">
+        <div style="display: flex; gap: 24px; flex-wrap: wrap;">
+          <div style="display: flex; align-items: center; gap: 8px; color: rgba(255,255,255,0.5); font-size: 13px;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            Fully mobile responsive
+          </div>
+          <div style="display: flex; align-items: center; gap: 8px; color: rgba(255,255,255,0.5); font-size: 13px;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            Loads in under 2 seconds
+          </div>
+          <div style="display: flex; align-items: center; gap: 8px; color: rgba(255,255,255,0.5); font-size: 13px;">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+            Local SEO ready
+          </div>
+        </div>
+        <button onclick="showSection('pricing')" class="btn-primary" style="font-size: 14px; padding: 11px 22px;">
+          See Pricing →
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- FOOTER -->
 <footer>
   <div class="footer-note">Prepared exclusively for Sure-Lock Self Storage, Paraparaumu · Not for redistribution</div>
@@ -873,10 +953,32 @@ function showSection(id) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
   document.getElementById(id).classList.add('active');
-  const tabMap = { overview: 0, compare: 1, features: 2, process: 3, pricing: 4 };
+  const tabMap = { overview: 0, compare: 1, features: 2, process: 3, demo: 4, pricing: 5 };
   const tabs = document.querySelectorAll('.nav-tab');
-  if (tabs[tabMap[id]]) tabs[tabMap[id]].classList.add('active');
+  if (tabs[tabMap[id]] !== undefined) tabs[tabMap[id]].classList.add('active');
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// Detect if iframe failed to load (X-Frame-Options block)
+const iframe = document.getElementById('demo-iframe');
+const fallback = document.getElementById('iframe-fallback');
+if (iframe && fallback) {
+  iframe.addEventListener('error', () => {
+    fallback.style.display = 'flex';
+    iframe.style.display = 'none';
+  });
+  // Timeout fallback — if iframe src returns nothing after 5s
+  setTimeout(() => {
+    try {
+      const doc = iframe.contentDocument || iframe.contentWindow.document;
+      if (!doc || doc.readyState === 'complete' && doc.body && doc.body.innerHTML === '') {
+        fallback.style.display = 'flex';
+        iframe.style.display = 'none';
+      }
+    } catch(e) {
+      // Cross-origin — this means it loaded, just blocked from reading. That's fine.
+    }
+  }, 5000);
 }
 </script>
 
